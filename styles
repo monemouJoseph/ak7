@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-point {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
